@@ -1,0 +1,100 @@
+bm-menu {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    transition: transform 0.3s linear;
+    background-color: #029491;
+    align-items: center;
+    margin: 0 auto;
+}
+.emptyScan {
+    background-color: #029491;
+}
+.emptyScan-image {
+    position: absolute;
+    top: -15px;
+}
+.bm-menu-list {
+    background-color: #029491;
+    padding-top: 80px;
+
+    list-style-type: none;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+}
+
+.items-burger {
+    width: 100%;
+    border-top: 1px solid rgba(255, 255, 255, 0.555);
+    margin-right: 0px;
+    padding: 10px 20px;
+    border: 0 ;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.16px;
+
+}
+.nav-list{
+    padding:10px 30px 40px 10px;
+}
+.registration {
+    opacity: 0.4;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.14px;
+ 
+}
+
+.burger-button {
+    position: absolute;
+    right: 30px;
+    top: 25px;
+    padding: 5px;
+    font-size: 18px;
+    border: none;
+    background-color: transparent;
+
+}
+
+.burger {
+    background-color: #FFF;
+    fill:none;
+}
+.login-button {
+    background-color: #7CE3E1;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    width: 40%;
+    height: 52px;
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    align-content: center;
+    margin: 0% 5% 5% 35%;
+    
+}
+
+@media screen and (max-width:2500px) {
+    .burger-button {
+        display: none;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .burger-button {
+        display: block;
+        margin-left: 60px;
+    }
+}

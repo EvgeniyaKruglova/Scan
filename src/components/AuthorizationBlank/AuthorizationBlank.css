@@ -1,0 +1,27 @@
+.main {
+    width: 96vw;
+    margin: 0 auto 600px;
+}
+.main__auth {
+    width: 92%;
+    height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.main_title {
+    font-family: "Ferry", Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    width: 780px;
+    font-size: 40px;
+    text-transform: uppercase;
+    line-height: 48px;
+}
+
+.characters {
+    margin-top: -9%;
+    margin-left: 10%
+}

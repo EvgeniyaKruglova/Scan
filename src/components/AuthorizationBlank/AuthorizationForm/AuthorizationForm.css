@@ -1,0 +1,108 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    box-sizing: border-box;
+    border-color: #C7C7C7;
+    margin-top:30%;
+    padding: 2% 2% 2%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+.lockContainer {
+    position: relative;
+    top: -80px;
+    left:30px;
+}
+.link {
+    display: inline-block;
+    text-decoration: none;
+    color: #029491;
+    border-bottom: 3px solid #029491;
+    margin-right: 15px;
+    width: 35%;
+    padding-left: 0px;
+    text-align: center;
+    box-sizing: border-box;
+    line-height: 35px;
+    cursor: default;
+    pointer-events: none;
+}
+.linkInactive {
+    display: inline-block;
+    text-decoration: none;
+    color: #C7C7C7;
+    border-bottom: 3px solid #C7C7C7;
+    margin-right: 0px;
+    width: 60%;
+    padding-left: 0px;
+    text-align: center;
+    box-sizing: border-box;
+    line-height: 35px;
+}
+.titleContainer {
+    margin-bottom: 5%;
+}
+.label {
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    width: 80%;
+    font-size: 16px;
+    line-height: 19.36px;
+    color: #949494;
+   
+}
+.inputContainer{
+    margin-top: 3%;
+}
+
+.inputBox{
+    height: 43px;
+    width: 99%;
+    border-radius: 5px;
+    border: 2px solid #C7C7C7;
+    box-shadow: 0px 0px 20px rgb(0 0 0 / 5%);
+}
+
+.inputButton {
+    width: 100%;
+    height: 59px;
+    border: 2px solid #C7C7C7;
+    box-shadow: 0px 0px 20px rgb(0 0 0 / 5%);
+    opacity: 50%;
+    border-radius: 5px;
+    background-color: #5970FF;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 26.63px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.formLink {
+    margin-top: 15px;
+    color: #5970FF;
+    cursor: default;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    letter-spacing: 2%;
+    text-align: center;
+    width:99%;
+}
+
+.inputContainer > .errorLabel {
+    color: #FF5959;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+    letter-spacing: 0.01em;
+    border-color: #FF5959;
+    width: 100%;
+    text-align: -webkit-center;
+}
+
+input:invalid {
+    border-color: #FF5959;
+    color: #FF5959;
+}

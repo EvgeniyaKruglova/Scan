@@ -1,0 +1,28 @@
+.footer {
+    margin-top: 65px;
+    background-color: #029491;
+    position: absolute;
+    left: 0;
+    margin-bottom: 100px;
+    width: 100%;
+    flex-direction: row;
+    min-height: 137px;
+}
+
+.footer-main {
+    width: 96vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.contacts {
+    text-align: flex-end;
+    margin-top: 27px;
+    color: white;
+}
+
+
+
+
+

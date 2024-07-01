@@ -1,0 +1,20 @@
+.footerContainer {
+    width: 320px;
+    align-self: flex-start;
+    margin-top: 30px;
+}
+
+section {
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #949494;
+}
+.footerImage {
+    display: inline-block;
+    margin-right:3%;
+    margin-top: 20px;
+}

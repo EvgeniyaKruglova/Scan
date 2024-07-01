@@ -1,0 +1,136 @@
+
+.tariffs_title {
+    font-family: "Ferry", Arial, Helvetica, sans-serif; 
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 54px;
+    margin: 30px;
+}
+
+
+.tariffs {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.tariffs__card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
+    width: 30%;
+}
+
+.tariffs_box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.beginner {
+    background-color: #FFB64F;
+}
+
+.pro {
+    background-color: #7CE3E1;
+}
+.business {
+    background-color: #000000;
+  
+}
+.card_name {
+    margin-left: 30px;
+}
+
+section{
+    font:"Inter";
+    font-weight:400;
+    font-size:18px;
+}
+
+.light {
+    margin-top: 15px;
+    margin-right: 35px;
+}
+
+.target {
+    margin-right:15px;
+    margin-bottom: -30px;
+}
+
+.notebook {
+    margin-top: 15px;
+    margin-right: 35px;
+}
+
+
+.main_info {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 10px 30px 30px;
+    margin:1%;
+}
+
+.actual-tariff {
+    align-self: flex-end;
+    background-color: #3BA5E0;
+    border-radius: 10px;
+    font: "Inter";
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    padding: 5px 10px;
+}
+.price {
+    font: "Inter";
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.old-price {
+    opacity: 50%;
+    text-decoration: line-through;
+    margin-left: 25px;
+}
+
+.price-installment {
+    margin: 0px 0px 35px 0px;
+}
+
+.description-list {
+    list-style-image: url(../../images/Tick.svg);
+    margin: 0px;
+    font: "Inter";
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.tariff-button {
+    width: 95%;
+    height: 59px;
+    border-radius: 5px;
+    border: none;
+    background-color: #D2D2D2;
+    margin-top: 35px;
+    font: "Inter";
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.description-button {
+    width: 95%;
+    height: 59px;
+    border-radius: 5px;
+    border: none;
+    background-color: #5970FF;
+    color:#FFFFFF;
+    margin-top: 35px;
+    font: "Inter";
+    font-weight: 400;
+    font-size: 20px;
+}
+
